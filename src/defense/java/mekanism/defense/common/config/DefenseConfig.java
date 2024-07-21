@@ -10,7 +10,7 @@ public class DefenseConfig extends BaseMekanismConfig {
 
     DefenseConfig() {
         ModConfigSpec.Builder builder = new ModConfigSpec.Builder();
-        builder.comment("Mekanism Defense Config. This config is synced between server and client.").push("defense");
+        DefenseConfigTranslations.SERVER_TOP_LEVEL.applyToBuilder(builder).push("defense");
 
         builder.pop();
         configSpec = builder.build();

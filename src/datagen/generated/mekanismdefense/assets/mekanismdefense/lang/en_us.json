@@ -1,4 +1,5 @@
 {
+  "configuration.mekanismdefense.server": "Mekanism Defense Config. This config is synced between server and client.",
   "constants.mekanismdefense.mod_name": "Mekanism: Defense",
   "constants.mekanismdefense.pack_description": "Resources used for Mekanism: Defense",
   "fml.menu.mods.info.description.mekanismdefense": "Defense module for Mekanism",
