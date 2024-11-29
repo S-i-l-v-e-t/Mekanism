@@ -794,7 +794,7 @@ if (System.getenv("CURSEFORGE_KEY") != null || project.hasProperty('curseforgeKe
                     //Wood types
                     'i-like-wood', 'i-like-wood-biomes-o-plenty-plugin', 'i-like-wood-oh-the-biomes-youll-go-plugin',
                     //Misc
-                    'applied-energistics-2', 'ctm', 'curios', 'dark-mode-everywhere', 'farmers-delight', 'female-gender-forge', 'flux-networks',
+                    'applied-energistics-2', 'ctm', 'curios', 'dark-mode-everywhere', 'farmers-delight', 'female-gender-neoforge', 'flux-networks',
                     'jei', 'json-things', 'perviaminvenire', 'projecte', 'recipe-stages'
             )
         }
