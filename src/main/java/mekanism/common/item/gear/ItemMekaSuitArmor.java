@@ -494,9 +494,9 @@ public class ItemMekaSuitArmor extends ItemSpecialArmor implements IModuleContai
                 if (absorbRatio == null) {
                     //If we haven't looked up yet if we can absorb the damage type and if we can't
                     // stop checking if the armor is able to
-                    if (!source.is(MekanismTags.DamageTypes.MEKASUIT_ALWAYS_SUPPORTED) && source.is(DamageTypeTags.BYPASSES_ARMOR)) {
-                        break;
-                    }
+                    //if (!source.is(MekanismTags.DamageTypes.MEKASUIT_ALWAYS_SUPPORTED) && source.is(DamageTypeTags.BYPASSES_ARMOR)) {
+                    //    break;
+                    //}
                     // Next lookup the ratio at which we can absorb the given damage type from the config
                     ResourceLocation damageTypeName = source.typeHolder().unwrapKey()
                           .map(ResourceKey::location)
